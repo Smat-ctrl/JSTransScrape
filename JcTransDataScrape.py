@@ -33,10 +33,10 @@ link.click()
 
 # Fill in the username and password inputs
 username_input = driver.find_element(By.XPATH, '//*[@id="pane-first"]/form/div[1]/div/div[1]/div/div/div/input')
-username_input.send_keys("alpatechca")  # Add your username
+username_input.send_keys("")  # Add your username
 
 password_input = driver.find_element(By.XPATH, '//*[@id="pane-first"]/form/div[2]/div/div/div/div/div/input')
-password_input.send_keys("ola1yenI1965$")  # Add your password
+password_input.send_keys("")  # Add your password
 
 # Click the submit button (login button)
 submit = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[1]/div[2]/div[3]/div[3]/div[3]/button')
